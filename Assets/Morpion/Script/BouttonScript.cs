@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ButtonScript : MonoBehaviour
+/*public class ButtonScript : MonoBehaviour
 {
 
     GameManager gmScript;
@@ -29,5 +29,20 @@ public class ButtonScript : MonoBehaviour
         {
             gmScript.ComputerPlay();
         }
+
+       /* transform.Find("Text").GetComponent<Text>().text = "O";
+        GetComponent<Button>().interactable = false;
+        int index = int.Parse(gameObject.name);
+
+        gmScript.matrix[index] = "O";
+
+        if (gmScript.verification("O"))
+        {
+            gmScript.ShowPanel("O");
+        }
+        else
+        {
+            gmScript.ComputerPlay();
+        }
     }
-}
+}*/
